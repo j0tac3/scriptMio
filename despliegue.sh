@@ -24,4 +24,4 @@ yum install yum-utils
 yum-config-manager --enable remi-php72   [Install PHP 7.2]
 
 yum install install php-common php-mbstring php-xml php-zip php-mysql php-pgsql php-pdo-pgsql
-yum service httpd restart
+systemctl restart httpd
